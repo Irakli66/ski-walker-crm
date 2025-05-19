@@ -1,0 +1,37 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+
+  "StartPage": {
+    "title": "განათავსე შეკვეთა",
+    "start": "დაწყება"
+  },
+
+  "FirstStep": {
+    "title": "შეიყვანმა ძირითადი მონაცემები",
+    "name": "სახელი",
+    "namePlaceHolder": "შეიყვანეთ თქვენი სახელი",
+    "level": "დონე",
+    "beginner": "დამწყები",
+    "intermediate": "შუალედური",
+    "advanced": "პროფესიონალი",
+    "age": "ასაკი",
+    "U16": "16 წლამდე",
+    "16to50": "16-დან 50 წლამდე",
+    "O50": "50 წელს ზემოთ",
+    "Weight": "წონა",
+    "Height": "სიმაღლე"
+  },
+
+  "SecondStep": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+
+  "ThirdStep": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  }
+}

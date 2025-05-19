@@ -1,0 +1,37 @@
+{
+  "HomePage": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+
+  "StartPage": {
+    "title": "Place you order",
+    "start": "Start"
+  },
+
+  "FirstStep": {
+    "title": "Enter main information",
+    "name": "Name",
+    "namePlaceHolder": "Enter your name",
+    "level": "Level",
+    "beginner": "Beginner",
+    "intermediate": "Intermediate",
+    "advanced": "Advanced",
+    "age": "Age",
+    "U16": "Under 16 years old",
+    "16to50": "From 16 to 50 years old",
+    "O50": "Over 50 years old",
+    "Weight": "Weight",
+    "Height": "Height"
+  },
+
+  "SecondStep": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  },
+
+  "ThirdStep": {
+    "title": "Hello world!",
+    "about": "Go to the about page"
+  }
+}
