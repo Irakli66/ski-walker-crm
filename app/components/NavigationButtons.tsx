@@ -1,6 +1,7 @@
 'use client';
 import { Button } from '@/components/ui/button';
 import { motion } from 'framer-motion';
+import { useTranslations } from 'next-intl';
 
 export default function NavigationButtons({
   currentStep,
@@ -13,6 +14,7 @@ export default function NavigationButtons({
   goToNextStep: () => void;
   goToPreviousStep: () => void;
 }) {
+  const t = useTranslations('StepperButtons');
   return (
     <motion.div
       className="flex gap-4 mt-8"
@@ -26,7 +28,7 @@ export default function NavigationButtons({
         variant="secondary"
         className="disabled:opacity-50"
       >
-        Previous
+        {t('previous')}
       </Button>
 
       <Button
@@ -35,7 +37,7 @@ export default function NavigationButtons({
         variant="default"
         className="disabled:opacity-50"
       >
-        Next
+        {t('next')}
       </Button>
     </motion.div>
   );

@@ -40,7 +40,7 @@ export default function PlaceOrderLayout({
   }
 
   return (
-    <div className="flex flex-col items-center h-full  pt-20 bg-background text-foreground space-y-25 px-20 2xl:px-110">
+    <div className="flex flex-col items-center h-full  py-10 bg-background text-foreground space-y-15 px-20 2xl:px-110">
       <motion.div
         className="w-full text-center pt-8"
         initial={{ y: -20, opacity: 0 }}

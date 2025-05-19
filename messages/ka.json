@@ -33,5 +33,10 @@
   "ThirdStep": {
     "title": "Hello world!",
     "about": "Go to the about page"
+  },
+
+  "StepperButtons": {
+    "previous": "წინა",
+    "next": "შემდეგი"
   }
 }
