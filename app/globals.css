@@ -118,5 +118,18 @@
   }
   body {
     @apply bg-background text-foreground;
+    font-family: 'Montserrat', 'MS-RING', sans-serif;
   }
+}
+
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/fonts/Montserrat-Regular.ttf') format('truetype');
+  unicode-range: U+0000-007F; /* Basic Latin */
+}
+
+@font-face {
+  font-family: 'MS-RING';
+  src: url('/fonts/MS-RING.ttf') format('truetype');
+  unicode-range: U+10A0-10FF; /* Georgian unicode block */
 }
